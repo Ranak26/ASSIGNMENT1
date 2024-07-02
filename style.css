@@ -1,7 +1,11 @@
-/* .navigationBar {
-    background-color: #333;
-    overflow: hidden;
-  } */
+.footer{
+    position: relative;
+    bottom: 0px;
+  }
+  #switch{
+    position: absolute;
+    right: 0px;
+  }
 
   .navigationBar a {
     float: left;
@@ -18,18 +22,33 @@
     color: black;
   }
 
-  /* .navigationBar a.active {
-    background-color: #04aa6d;
-    color: white;
-  } */
-.img{
+#para1{
+  display: flex;
+  justify-content: flex-start;
+}
+#para2{
+  display: flex;
+  justify-content: flex-end;
+}
+#img1{
+    height: 200px;
     float:right;
     margin-bottom: 30px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+
 }
-.img2{
+#img2{
+    height: 200px;
     float: left;
     margin-bottom: 30px;
 } 
+#video{
+  display: flex;
+  justify-content: center;
+  place-items: centre;
+}
 .navigationBar ul{
     list-style-type: none;
     background-color: black;
@@ -42,4 +61,10 @@
 }  
 .mar{
     margin-bottom: 100px;
+}
+/* @media screen and (max-width=600px){.any class name{properties to be used}} */
+@media(max-width:550px){
+  div{
+    color: coral;
+  }
 }
