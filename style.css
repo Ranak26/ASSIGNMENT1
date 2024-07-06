@@ -62,9 +62,14 @@
 .mar{
     margin-bottom: 100px;
 }
+form{
+  padding: 5px;
+}
 /* @media screen and (max-width=600px){.any class name{properties to be used}} */
 @media(max-width:550px){
   div{
     color: coral;
+    font-weight: 900;
+    font-family: cursive;
   }
 }
